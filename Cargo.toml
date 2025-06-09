@@ -1,5 +1,5 @@
 [package]
-name = "embassy_blinky"
+name = "ws2812_driver"
 version = "0.1.0"
 edition = "2024"
 

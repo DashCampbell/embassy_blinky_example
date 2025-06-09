@@ -12,6 +12,8 @@ target = "thumbv7em-none-eabihf"
 
 # For attaching usb st-link to wsl: https://learn.microsoft.com/en-us/windows/wsl/connect-usb
 # usbipd attach --wsl --busid 2-6
+# If module error use this first in wsl
+# sudo modprobe vhci_hcd
 
 # Logging Tip: Enabling a logging level also enables higher severity logging levels.
 [env]
